@@ -1,0 +1,231 @@
+
+.caja-login{
+  float: left;
+  height: 50%;
+  width: 20%;
+  max-width: 1000px;
+  overflow: hidden;
+  padding: 0px 30px 10px 30px;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  background-color: #edd4bb;
+  box-shadow: #0000006c 0px 4px 4px 0px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  border: 4px solid  #4d243d;
+  backdrop-filter: blur(5px);
+  color: #000000;
+
+}
+.logo img{
+
+  width: 100%;
+  height: 30%;
+  margin-top: 20px;
+}
+
+.caja-login h3{
+  color: #684a37;
+  font-size: 30px;
+margin-top: -10px;
+}
+
+.caja-login:hover{
+
+  background-color: #edd4bba6;
+  backdrop-filter: blur(5px);
+  height: 60%;
+  width: 40%;
+}
+
+
+.boton-prueba{
+  width: 200px;
+  background-color: #865ba3;
+  padding: 10px 20px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+
+
+  color: #edd4bb;
+
+  text-decoration: none;
+}
+
+.caja-login:hover h3{
+  color: #684a37;
+  font-size: 30px;
+  margin-top: -30px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.btn-login {
+  height: 40px;
+  width: 200px;
+  background-color: #d0a98f;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 3px solid #684a37;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #684a37;
+}
+/*============== POSICION CENTRADA ==============*/
+.flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+/*============== ALTURA ==============*/
+.scene {
+  position: relative;
+  height: 500px;
+}
+
+.contenido-main-registro.login {
+  margin-left: 0px;
+}
+
+.contenido-main-registro.contraseña {
+  top: 35%;
+}
+
+/*============== Color Placeholder ==============*/
+::-webkit-input-placeholder {
+  color: rgba(26, 25, 25, 0.555);
+}
+
+label.label,
+label {
+  color: #ffffff;
+}
+
+/*============== Tamaño y Color de Ventanas  ==============*/
+.card-body {
+  height: 50%;
+  width: 30%;
+  color: rgb(88, 88, 88);
+  max-width: 1000px;
+  overflow: hidden;
+  padding: 0px 30px 10px 30px;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  background-color: #5c2246;
+  box-shadow: #0000006c 0px 4px 4px 0px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  border: 4px solid  #4d243d;
+
+
+
+
+}
+
+
+.card-body:hover {
+  background-color: #5c22469c;
+  box-shadow: #000000b7 0px 4px 4px 0px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  backdrop-filter: blur(10px);
+  height: 60%;
+  width: 40%;
+}
+
+.scene.flex h2 {
+  color: rgba(255, 255, 255, 0.747);
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+}
+
+/*============== Estilo Input ==============*/
+.card-input {
+  background: rgba(255, 255, 255, 0.822);
+  border: 1px solid rgba(0, 0, 0, 0.363);
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #000000;
+  display: block;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.card-input:focus,
+.card-input:active {
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  outline: none;
+  background-color: #ffffff;
+}
+
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+
+@media (max-width: 1200px) {
+}
+
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
+@media (max-width: 960px) {
+  .scene.flex.login {
+    margin-top: 40%;
+  }
+  .contenido-main-registro {
+    top: 25%;
+  }
+}
+
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
+@media (max-width: 768px) {
+  .scene.flex.login {
+    margin-top: 40%;
+  }
+
+  .contenido-main-registro {
+    top: 25%;
+  }
+}
+
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+@media (max-width: 576px) {
+  .scene.flex.login {
+    margin-top: 40%;
+  }
+}
+
+@media (max-width: 570px) {
+  .flex {
+    position: initial;
+  }
+}
+
+
+
+h2{
+  color: #000000;
+}

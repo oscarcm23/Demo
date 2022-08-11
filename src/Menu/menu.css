@@ -1,0 +1,773 @@
+.menu{
+    width: 100%;
+    height: 100%;
+
+}
+
+.padre {
+    display: flex;
+    justify-content: center;
+  }
+  .hijo {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(201, 201, 201, 0.699);
+    width: 20%;
+    height: 200px;
+    border-radius:20px ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+   border: 5px solid rgb(138, 8, 62);
+
+
+
+text-align: center;
+
+}
+
+.hijo p{
+    color: rgb(109, 81, 22);
+    font-size: 20px;
+    font-weight: 900;
+    background-color: #ffffff;
+    border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+}
+
+.hijo:hover{
+background-color: aliceblue;
+border: 5px solid rgb(236, 96, 15);
+color: rgb(41, 41, 41);
+}
+
+
+
+.iconify{
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+    font-size: 100px;
+    color: #181818;
+}
+
+.iconify:hover{
+  font-size: 120px;
+  background-color: #ffffff;
+  border-radius: 45px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
+  transition:1s ;
+  -webkit-transition:1s ;
+  -moz-transition:1s ;
+  -ms-transition:1s ;
+  -o-transition:1s ;
+}
+.hijo.mesa{
+    padding: 10px;
+    margin: 10px;
+    background-color: #edd4b2;
+    width: 20%;
+    height: 120px;
+    border-radius:20px ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+   border: 5px solid #a5865a;
+
+
+
+text-align: center;
+
+}
+
+.checar-comanda{
+  position: absolute;
+ width:calc(100% - 30px);
+ top: 60px;
+
+}
+
+
+.tabla-menu{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+   left: 0px;
+   right: 0px;
+
+
+}
+
+.true{
+     background-color: #4d243d;
+    text-align: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+
+    border: 2px solid rgb(255, 255, 255);
+    
+   
+}
+
+td , th,table{
+    text-align: center;
+    border: none;
+    text-decoration: none;
+
+ 
+    
+}
+
+ button.comanda.btn.btn-primary{
+  background-color: #4d243d00;
+
+  width: 100px;
+  height: 100%;
+  border: none;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+button.comanda.btn.btn-primary:hover{
+  background-color: #70707038;
+
+}
+
+
+
+.false{
+
+    background-color: #edd4b2;
+    text-align: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: 2px solid rgb(92, 43, 3);
+    
+}
+
+
+.icon{
+    background-color: #00000000;
+    border: none;
+}
+
+.true .iconify  , .false .iconify{  
+    background-color: rgba(248, 255, 255, 0);
+}
+
+button.icon{
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.salon{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 60px) ;
+  bottom: -0px;
+}
+
+button.mesa{
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: rgb(97, 97, 97);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+/* 
+div.swal-title{
+background-color: #a5865a;
+} */
+
+
+.padre.mesa{
+    background-color: #ffffff4f;
+
+    backdrop-filter: blur(3px);
+}
+
+
+.header{
+position: fixed;
+width: 100%;
+height: 60px;
+background-color: #4d243d;
+top: 0px;
+left: 0px;
+z-index: 10;
+
+}
+
+.header h1{
+    text-align: center;
+    color: #ff9900;
+}
+
+.logo p{
+    background-color: #4d243d;
+    float: right;
+    width: 100px;
+}
+
+
+.regresar p{
+    background-color: #4d243d;
+    float: left;
+    width: 100px;
+}
+
+
+
+
+.box{
+  position: absolute;
+  width: 100%;
+}
+
+
+
+.menu-comanda{
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    background-color: #ffffffa8;
+    left: -10px;
+    float: left;
+}
+
+
+
+.entradas{
+  width: 70%;
+  float: left;
+}
+
+.pedido{
+
+  width: 30%;
+
+  float: right;
+  }
+.pedido h2{
+  text-align: center;
+  background-color: #ffffff94;
+}
+.entradas h2{
+  text-align: center;
+  background-color: #ffffff94;
+}
+
+
+/* .desactivado{
+    background-color: #ff9900;
+}
+
+.activado{
+    background-color: aqua;
+
+}
+ */
+
+/* From uiverse.io by @DGtalsam */
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: rgb(56, 56, 56);
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+           7px 7px 20px 0px rgba(0, 0, 0, .1),
+           4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+   }
+   
+
+
+
+
+
+
+
+   /* From uiverse.io by @alexmaracinaru */
+.card {
+  position: relative;
+    background: white;
+    width: 22%;
+    height: 274px;
+    border-radius: 6px;
+    float: left;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding: 11px;
+}
+  
+  .card-image {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 60%;
+    border-radius: 6px 6px 0 0;
+
+background-image: url("../media/images/fondo.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+  
+  .card-image:hover {
+    transform: scale(0.98);
+  }
+  
+  .category {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 0;
+  }
+  
+  .category:hover {
+    cursor: pointer;
+  }
+  
+  .heading {
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    padding: 7px;
+  }
+  
+  .heading:hover {
+    cursor: pointer;
+  }
+  
+  .author {
+    color: gray;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+  }
+  
+  .name {
+    font-weight: 600;
+  }
+  
+  .name:hover {
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+.wrapper2 {
+	max-width: 400px;
+	margin: 0 auto;
+  background-color: #fdfdfd;
+}
+
+
+
+.lista-item {
+	background: white;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-shadow: 0 2px 6px rgba(50,50,90,.1);
+}
+
+.faq-titulo {
+	cursor: pointer;
+	padding: 10px;
+	font-size: 1.4em;
+	font-family: monospace;
+	color: #8F6ED5;
+}
+
+.faq-titulo::before {
+	content: '';
+	display: inline-block;
+	height: 12px;
+	width: 24px;
+	margin-right: 10px;
+	background: #BEB0F4;
+}
+
+.faq-titulo::after {
+	content: '+';
+	float: right;
+	transition: transform .3s ease;
+}
+
+.faq-conteudo {
+	padding: 10px;
+	color: #6B7C93;
+	font-family: Helvetica;
+	font-size: .875em;
+	line-height: 1.4em;
+	display: none;
+}
+
+.trigger-input {
+	display: none;
+}
+
+.trigger-input:checked + .trigger-wrapper .faq-conteudo {
+	display: block;
+}
+
+.trigger-input:checked + .trigger-wrapper .faq-titulo::after {
+	transform: rotate(45deg) scale(1.08);
+}
+
+
+
+
+
+
+
+span.pagar {
+font-size: 20px;
+color: green;
+float: right;
+}
+
+span.cambio {
+  font-size: 20px;
+  color: red;
+  float: right;
+  }
+
+  span.forma-pago {
+    font-size: 20px;
+    float: right;
+
+    }
+
+ 
+    .pagos{
+
+      position: absolute;
+      width: calc(100% );
+      height: calc(100% - 8px);
+  
+      left: 0px;
+    }
+
+    .resumen-pagos{
+      position: absolute;
+      top:60px;
+      width: 20%;
+      background-color: #ffffff;
+      height: calc(100%  - 100px);
+      left: 0px;
+      padding: 20px;
+      float: left;
+      left: 0px;
+
+
+      backdrop-filter: blur(3px);
+    }
+
+    .metodos-pago{
+      position: absolute;
+      width: calc(100% - 25%);
+      background-color: #ffffff;
+      top: 6px;
+      margin-left: 24%;
+      top:60px;
+      height: calc(100% - 60px);
+      
+      backdrop-filter: blur(3px);
+  
+    }
+.pagar{
+  background-color: #00000000;
+  border: none;
+}
+
+
+td.pagos-activos{
+  background-color: #ffffff1e;
+}
+
+td.pagos-desactivos{
+  background-color: #33ff001e;
+  border: 3px solid rgba(0, 128, 0, 0.568);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+button.pagar{
+  font-size: 14px;
+text-transform: uppercase;
+}
+
+
+div.numeros{
+  position: relative;
+  width: 20%;
+  background-color: #00000031;
+  height: 50%;
+  top: 10%;
+
+left: 30px;
+
+}
+
+
+ .numeros span{
+  background-color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius:45px ;
+  -webkit-border-radius:45px ;
+  -moz-border-radius:45px ;
+  -ms-border-radius:45px ;
+  -o-border-radius:45px ;
+  font-size: 20px;
+  float: left;
+
+  margin: 10px;
+
+  display: flex;
+  justify-content: center;
+	align-items: center;
+	text-align: center;
+
+
+}
+
+
+
+.cocina{
+  
+  position: absolute;
+  width: calc(100%  - 40px);
+  top: 80px;
+  left: 20px;
+  padding: 10px;
+  text-align: center;
+
+
+}
+
+.pedidos{
+  float: left;
+  background-color: #edd4b2;
+  width: calc(25% - 50px);
+  margin: 0px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.pedidos p{
+  text-align: left;
+  padding: 0px 10px  ;
+}
+.pedidos span{
+  text-align: right;
+  float: right;
+  padding: 0px 10px;
+}
+
+.boton-cocina{
+  padding: 10px;
+  background-color: #ff8800;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+
+
+
+
+.reservaciones{
+  width:calc(100%);
+  position: absolute;
+  top: 40px;
+}
+
+
+.calendario{
+width: calc(20% - 20px);
+margin-top: 20px;
+background-color: #ffffff;
+padding: 20px;
+float: left;
+}
+
+
+
+.tareas{
+  width: calc(80% - 20px);
+  background-color: #ffffff;
+  float: right;
+ margin-top: 20px;
+ text-align: center;
+}
+
+
+
+.inventario{
+  position: absolute;
+  top: 60px;
+  background-color: #ffffffce;
+  left: 0px;
+
+  height: calc(100% - 60px);
+  width: calc(100% - 0px);
+  backdrop-filter: blur(10px);
+
+}
+
+
+
+span.sr-only{
+  display: none;
+}
+
+
+.table.table.table-bordered{
+  background-color: #aaaaaa;
+  padding: 10px;
+width: calc(90% - 5px);
+}
+
+
+button.agregar{
+  background-color: #6ed588;
+  border: none;
+  float: right;
+  top: 10px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin-right: 150px;
+  padding: 0px 10px;
+}
+
+
+.modal{
+
+top:0px;
+width: 100%;
+background-color: #eeeeee;
+
+}
+
+div.modal-dialog{
+  background-color: #f5f5f5a6;
+  position: absolute;
+  top: 0px;
+  width:calc(100%  - 60px);
+  height: 90%;
+  left: 0px;
+  padding: 30px;
+  backdrop-filter: blur(3px);
+
+  overflow-y: scroll;
+
+}
+
+
+.agregar-productos{
+
+  text-align: justify;
+  margin: 10px;
+}
+
+
+
+.agregar-productos  span{
+
+
+margin: 10px;
+width: 100px;
+list-style: none;
+display: inline-block;
+}
+
+.agregar-productos  select{
+
+
+  margin: 10px;
+  display: inline-block;
+  width: 150px;
+
+  }
+
+
+
+  .boton-prueba.salir{
+    background-color: #bd0909;
+
+
+
+  }
+
+  .salir{
+    position: absolute;
+    width: 60px;
+    float: right;
+    float: inline-end;
+
+    right: 10px;
+
+
+  }
